@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
-//  UIKit-RestrictingInput
+//  TextFieldsViewController.swift
+//  UIKitRestrictingInput
 //
 //  Created by Darya Kuliashova on 06/05/2022.
 //
 
 import UIKit
 
-final class ViewController: UIViewController {
+final class TextFieldsViewController: UIViewController {
     @IBOutlet weak var restrictWhitespacesTextField: UITextField!
     @IBOutlet weak var restrictLettersTextField: UITextField!
     @IBOutlet weak var restrictDecimalsTextField: UITextField!
@@ -22,7 +22,7 @@ final class ViewController: UIViewController {
 }
 
 // MARK: - UITextFieldDelegate
-extension ViewController: UITextFieldDelegate {
+extension TextFieldsViewController: UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if textField == restrictWhitespacesTextField {
             let invalidCharacterSet = NSCharacterSet.whitespaces

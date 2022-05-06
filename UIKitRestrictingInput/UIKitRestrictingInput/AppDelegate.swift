@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  UIKit-RestrictingInput
+//  UIKitRestrictingInput
 //
 //  Created by Darya Kuliashova on 06/05/2022.
 //

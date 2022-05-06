@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B3AF1F9282538C300C0AC45 /* UIKit_RestrictingInputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3AF1F8282538C300C0AC45 /* UIKit_RestrictingInputTests.swift */; };
+		0B3AF1F9282538C300C0AC45 /* UIKitRestrictingInputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3AF1F8282538C300C0AC45 /* UIKitRestrictingInputTests.swift */; };
 		0BFA724F2825308C00E261A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA724E2825308C00E261A1 /* AppDelegate.swift */; };
 		0BFA72512825308C00E261A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA72502825308C00E261A1 /* SceneDelegate.swift */; };
-		0BFA72532825308C00E261A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA72522825308C00E261A1 /* ViewController.swift */; };
+		0BFA72532825308C00E261A1 /* TextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA72522825308C00E261A1 /* TextFieldsViewController.swift */; };
 		0BFA72562825308C00E261A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BFA72542825308C00E261A1 /* Main.storyboard */; };
 		0BFA72582825309200E261A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BFA72572825309200E261A1 /* Assets.xcassets */; };
 		0BFA725B2825309200E261A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BFA72592825309200E261A1 /* LaunchScreen.storyboard */; };
@@ -27,12 +27,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B3AF1F6282538C300C0AC45 /* UIKit-RestrictingInputTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKit-RestrictingInputTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B3AF1F8282538C300C0AC45 /* UIKit_RestrictingInputTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_RestrictingInputTests.swift; sourceTree = "<group>"; };
-		0BFA724B2825308C00E261A1 /* UIKit-RestrictingInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-RestrictingInput.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3AF1F6282538C300C0AC45 /* UIKitRestrictingInputTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitRestrictingInputTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3AF1F8282538C300C0AC45 /* UIKitRestrictingInputTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitRestrictingInputTests.swift; sourceTree = "<group>"; };
+		0BFA724B2825308C00E261A1 /* UIKitRestrictingInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitRestrictingInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BFA724E2825308C00E261A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BFA72502825308C00E261A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0BFA72522825308C00E261A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BFA72522825308C00E261A1 /* TextFieldsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsViewController.swift; sourceTree = "<group>"; };
 		0BFA72552825308C00E261A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BFA72572825309200E261A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BFA725A2825309200E261A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,19 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B3AF1F7282538C300C0AC45 /* UIKit-RestrictingInputTests */ = {
+		0B3AF1F7282538C300C0AC45 /* UIKitRestrictingInputTests */ = {
 			isa = PBXGroup;
 			children = (
-				0B3AF1F8282538C300C0AC45 /* UIKit_RestrictingInputTests.swift */,
+				0B3AF1F8282538C300C0AC45 /* UIKitRestrictingInputTests.swift */,
 			);
-			path = "UIKit-RestrictingInputTests";
+			path = UIKitRestrictingInputTests;
 			sourceTree = "<group>";
 		};
 		0BFA72422825308B00E261A1 = {
 			isa = PBXGroup;
 			children = (
-				0BFA724D2825308C00E261A1 /* UIKit-RestrictingInput */,
-				0B3AF1F7282538C300C0AC45 /* UIKit-RestrictingInputTests */,
+				0BFA724D2825308C00E261A1 /* UIKitRestrictingInput */,
+				0B3AF1F7282538C300C0AC45 /* UIKitRestrictingInputTests */,
 				0BFA724C2825308C00E261A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,32 +77,32 @@
 		0BFA724C2825308C00E261A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BFA724B2825308C00E261A1 /* UIKit-RestrictingInput.app */,
-				0B3AF1F6282538C300C0AC45 /* UIKit-RestrictingInputTests.xctest */,
+				0BFA724B2825308C00E261A1 /* UIKitRestrictingInput.app */,
+				0B3AF1F6282538C300C0AC45 /* UIKitRestrictingInputTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BFA724D2825308C00E261A1 /* UIKit-RestrictingInput */ = {
+		0BFA724D2825308C00E261A1 /* UIKitRestrictingInput */ = {
 			isa = PBXGroup;
 			children = (
 				0BFA724E2825308C00E261A1 /* AppDelegate.swift */,
 				0BFA72502825308C00E261A1 /* SceneDelegate.swift */,
-				0BFA72522825308C00E261A1 /* ViewController.swift */,
+				0BFA72522825308C00E261A1 /* TextFieldsViewController.swift */,
 				0BFA72542825308C00E261A1 /* Main.storyboard */,
 				0BFA72572825309200E261A1 /* Assets.xcassets */,
 				0BFA72592825309200E261A1 /* LaunchScreen.storyboard */,
 				0BFA725C2825309200E261A1 /* Info.plist */,
 			);
-			path = "UIKit-RestrictingInput";
+			path = UIKitRestrictingInput;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B3AF1F5282538C300C0AC45 /* UIKit-RestrictingInputTests */ = {
+		0B3AF1F5282538C300C0AC45 /* UIKitRestrictingInputTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B3AF1FE282538C300C0AC45 /* Build configuration list for PBXNativeTarget "UIKit-RestrictingInputTests" */;
+			buildConfigurationList = 0B3AF1FE282538C300C0AC45 /* Build configuration list for PBXNativeTarget "UIKitRestrictingInputTests" */;
 			buildPhases = (
 				0B3AF1F2282538C300C0AC45 /* Sources */,
 				0B3AF1F3282538C300C0AC45 /* Frameworks */,
@@ -113,14 +113,14 @@
 			dependencies = (
 				0B3AF1FB282538C300C0AC45 /* PBXTargetDependency */,
 			);
-			name = "UIKit-RestrictingInputTests";
+			name = UIKitRestrictingInputTests;
 			productName = "UIKit-RestrictingInputTests";
-			productReference = 0B3AF1F6282538C300C0AC45 /* UIKit-RestrictingInputTests.xctest */;
+			productReference = 0B3AF1F6282538C300C0AC45 /* UIKitRestrictingInputTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0BFA724A2825308C00E261A1 /* UIKit-RestrictingInput */ = {
+		0BFA724A2825308C00E261A1 /* UIKitRestrictingInput */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BFA725F2825309200E261A1 /* Build configuration list for PBXNativeTarget "UIKit-RestrictingInput" */;
+			buildConfigurationList = 0BFA725F2825309200E261A1 /* Build configuration list for PBXNativeTarget "UIKitRestrictingInput" */;
 			buildPhases = (
 				0BFA72472825308C00E261A1 /* Sources */,
 				0BFA72482825308C00E261A1 /* Frameworks */,
@@ -130,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = "UIKit-RestrictingInput";
+			name = UIKitRestrictingInput;
 			productName = "UIKit-RestrictingInput";
-			productReference = 0BFA724B2825308C00E261A1 /* UIKit-RestrictingInput.app */;
+			productReference = 0BFA724B2825308C00E261A1 /* UIKitRestrictingInput.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0BFA72462825308B00E261A1 /* Build configuration list for PBXProject "UIKit-RestrictingInput" */;
+			buildConfigurationList = 0BFA72462825308B00E261A1 /* Build configuration list for PBXProject "UIKitRestrictingInput" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,8 +167,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BFA724A2825308C00E261A1 /* UIKit-RestrictingInput */,
-				0B3AF1F5282538C300C0AC45 /* UIKit-RestrictingInputTests */,
+				0BFA724A2825308C00E261A1 /* UIKitRestrictingInput */,
+				0B3AF1F5282538C300C0AC45 /* UIKitRestrictingInputTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B3AF1F9282538C300C0AC45 /* UIKit_RestrictingInputTests.swift in Sources */,
+				0B3AF1F9282538C300C0AC45 /* UIKitRestrictingInputTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BFA72532825308C00E261A1 /* ViewController.swift in Sources */,
+				0BFA72532825308C00E261A1 /* TextFieldsViewController.swift in Sources */,
 				0BFA724F2825308C00E261A1 /* AppDelegate.swift in Sources */,
 				0BFA72512825308C00E261A1 /* SceneDelegate.swift in Sources */,
 			);
@@ -217,7 +217,7 @@
 /* Begin PBXTargetDependency section */
 		0B3AF1FB282538C300C0AC45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0BFA724A2825308C00E261A1 /* UIKit-RestrictingInput */;
+			target = 0BFA724A2825308C00E261A1 /* UIKitRestrictingInput */;
 			targetProxy = 0B3AF1FA282538C300C0AC45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -256,7 +256,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIKit-RestrictingInput.app/UIKit-RestrictingInput";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIKitRestrictingInput.app/UIKitRestrictingInput";
 			};
 			name = Debug;
 		};
@@ -274,7 +274,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIKit-RestrictingInput.app/UIKit-RestrictingInput";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIKitRestrictingInput.app/UIKitRestrictingInput";
 			};
 			name = Release;
 		};
@@ -403,7 +403,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XGAQ4P4W84;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UIKit-RestrictingInput/Info.plist";
+				INFOPLIST_FILE = UIKitRestrictingInput/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -414,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kuldarya.UIKit-RestrictingInput";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuldarya.UIKitRestrictingInput;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -431,7 +431,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XGAQ4P4W84;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "UIKit-RestrictingInput/Info.plist";
+				INFOPLIST_FILE = UIKitRestrictingInput/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -442,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kuldarya.UIKit-RestrictingInput";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuldarya.UIKitRestrictingInput;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -453,7 +453,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B3AF1FE282538C300C0AC45 /* Build configuration list for PBXNativeTarget "UIKit-RestrictingInputTests" */ = {
+		0B3AF1FE282538C300C0AC45 /* Build configuration list for PBXNativeTarget "UIKitRestrictingInputTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B3AF1FC282538C300C0AC45 /* Debug */,
@@ -462,7 +462,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BFA72462825308B00E261A1 /* Build configuration list for PBXProject "UIKit-RestrictingInput" */ = {
+		0BFA72462825308B00E261A1 /* Build configuration list for PBXProject "UIKitRestrictingInput" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BFA725D2825309200E261A1 /* Debug */,
@@ -471,7 +471,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BFA725F2825309200E261A1 /* Build configuration list for PBXNativeTarget "UIKit-RestrictingInput" */ = {
+		0BFA725F2825309200E261A1 /* Build configuration list for PBXNativeTarget "UIKitRestrictingInput" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BFA72602825309200E261A1 /* Debug */,
