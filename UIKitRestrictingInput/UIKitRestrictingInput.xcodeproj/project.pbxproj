@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B3AF1F9282538C300C0AC45 /* UIKitRestrictingInputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3AF1F8282538C300C0AC45 /* UIKitRestrictingInputTests.swift */; };
+		0B6C7775282AA4D6003286BA /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C7774282AA4D6003286BA /* String+Utils.swift */; };
 		0BFA724F2825308C00E261A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA724E2825308C00E261A1 /* AppDelegate.swift */; };
 		0BFA72512825308C00E261A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA72502825308C00E261A1 /* SceneDelegate.swift */; };
 		0BFA72532825308C00E261A1 /* TextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA72522825308C00E261A1 /* TextFieldsViewController.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		0B3AF1F6282538C300C0AC45 /* UIKitRestrictingInputTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitRestrictingInputTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3AF1F8282538C300C0AC45 /* UIKitRestrictingInputTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitRestrictingInputTests.swift; sourceTree = "<group>"; };
+		0B6C7774282AA4D6003286BA /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
 		0BFA724B2825308C00E261A1 /* UIKitRestrictingInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitRestrictingInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BFA724E2825308C00E261A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BFA72502825308C00E261A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				0BFA724E2825308C00E261A1 /* AppDelegate.swift */,
 				0BFA72502825308C00E261A1 /* SceneDelegate.swift */,
 				0BFA72522825308C00E261A1 /* TextFieldsViewController.swift */,
+				0B6C7774282AA4D6003286BA /* String+Utils.swift */,
 				0BFA72542825308C00E261A1 /* Main.storyboard */,
 				0BFA72572825309200E261A1 /* Assets.xcassets */,
 				0BFA72592825309200E261A1 /* LaunchScreen.storyboard */,
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6C7775282AA4D6003286BA /* String+Utils.swift in Sources */,
 				0BFA72532825308C00E261A1 /* TextFieldsViewController.swift in Sources */,
 				0BFA724F2825308C00E261A1 /* AppDelegate.swift in Sources */,
 				0BFA72512825308C00E261A1 /* SceneDelegate.swift in Sources */,
