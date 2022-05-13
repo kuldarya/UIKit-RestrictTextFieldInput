@@ -25,11 +25,11 @@ final class TextFieldsViewController: UIViewController {
 extension TextFieldsViewController: UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if textField == restrictWhitespacesTextField {
-            return string.restrictWhitespaces(in: string)
+            return string.isWhitespaceRestricted(in: string)
         } else if textField == restrictLettersTextField {
-            return string.restrictLetters(in: string)
+            return string.isLetterRestricted(in: string)
         } else {
-            return string.restrictDecimals(in: string)
+            return string.isDecimalRestricted(in: string)
         }
     }
 }
